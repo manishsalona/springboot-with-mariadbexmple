@@ -61,6 +61,11 @@
     			    <artifactId>maven-surefire-plugin</artifactId>
     			    <version>3.0.0</version> <!-- Use the latest version here -->
 			</plugin>
+			<testResources>
+                	   	<testResource>
+                    		<directory>src/main/webapp</directory>
+                          </testResource>
+   			 </testResources>
 
 		</plugins>
 	</build>
